@@ -1,0 +1,77 @@
+body{
+    padding-top: 56px;
+}
+
+.jumbotron{
+    text-shadow: #000 1px 1px;
+}
+
+.background-header{
+    background-image: url('https://images.unsplash.com/photo-1726503454520-1de6e7420074?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-color: #fafbfc;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+.button-primer{
+    background-color: #64ca61;
+    border-color: #38a52a;
+    color: #fff;
+    text-shadow: 0px 0px;
+}
+.button-primer:hover{
+    background-color: #eed72b;
+    border-color: #b7a523;
+    color: #fff;
+    text-shadow: 0px 0px;
+}
+
+.service-style{
+    margin-top: 15px;
+    background-color: #fafbfc;
+}
+
+.text-green{
+    color: #55ab52;
+}
+
+.bg-red{
+    background-color: #f25757;
+}
+
+h2:before,
+h2:after{
+    background-color: #38a52a;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+}
+h2::before{
+    right:0.5em;
+    margin-left: -50%;
+}
+h2::after{
+    left:0.5em;
+    margin-right: -50%;
+}
+
+.button-sekunder{
+    background-color: transparent;
+    border-color: #dbdbdb;
+    color: #38a52a;
+}
+.button-sekunder:hover{
+    background-color: #38a52a;
+    border-color: #dbdbdb;
+    color: #fff;
+}
+.cover{
+    background: no-repeat center/cover;
+    max-height: 600px;
+}
